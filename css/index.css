@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,400;1,700&family=Comfortaa&display=swap');
+
+:root {
+    --main-color: black;
+    --acent-color: white;
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 950;
+    margin: auto;
+}
+
+.header-nav .logo {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.header-nav .menu-items {
+    justify-content: space-around;
+    flex: 1;
+    display: none;
+}
